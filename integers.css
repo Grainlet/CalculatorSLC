@@ -1,0 +1,59 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  <img src="" alt="BG" width="500" height="600">
+ /* Black background */
+  color: #ccc; /* Light grey text */
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff; /* White header text */
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff; /* White headings */
+}
+
+.intro p,
+.summary p {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* White shadow */
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333; /* Dark grey content background */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow */
+  border-radius: 10px; /* Rounded corners */
+}
+
+section {
+  margin-bottom: 30px;
+}
