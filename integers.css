@@ -7,8 +7,8 @@ body, h1, h2, p, ul {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  <img src="BAGG.jpg" alt="BG" width="500" height="600">
- /* Black background */
+  background: #000; /* Fallback for solid color */
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%); /* Black radial gradient */
   color: #ccc; /* Light grey text */
 }
 
