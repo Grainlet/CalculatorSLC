@@ -28,6 +28,16 @@ function square() {
     }
 }
 
+function cube() {
+    try {
+        displayValue = eval(displayValue) ** 3;
+        document.getElementById('result').value = displayValue;
+    } catch (error) {
+        document.getElementById('result').value = 'Error';
+    }
+}
+
+
 function fraction() {
     try {
         displayValue = 1 / eval(displayValue);
